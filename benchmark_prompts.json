@@ -1,0 +1,122 @@
+[
+    {
+        "name": "photo",
+        "text": "a photo of _TOKEN_",
+        "seeds": [3141, 2718]
+    },
+    {
+        "name": "cannon-dslr",
+        "text": "a photo of _TOKEN_, cannon DSLR, 300mm lens",
+        "seeds": [3141, 2718]
+    },
+    {
+        "name": "hyperrealism",
+        "text": "a painting of _TOKEN_ sitting on a red cushion, hyperrealism, detailed fur, beautiful",
+        "seeds": [3141, 2718]
+    },
+    {
+        "name": "van-gogh",
+        "text": "a painting of _TOKEN_ by the window in the style of Vincent Van Gogh",
+        "seeds": [3141, 2718]
+    },
+    {
+        "name": "frida-khalo",
+        "text": "a painting of _TOKEN_ in the jungle in the style of Frida Khalo",
+        "seeds": [3141, 2718]
+    },
+    {
+        "name": "cinematic-still",
+        "text": "A cinematic film still of _TOKEN_, portrait, 40mm lens, shallow depth of field, close up, studio lighting",
+        "seeds": [3141, 2718]
+    },
+    {
+        "name": "toy-render",
+        "text": "_TOKEN_ toy, standing character, soft smooth lighting, soft pastel colors, skottie young, 3d blender render, polycount, modular constructivism, pop surrealism, physically based rendering, square image",
+        "seeds": [3141, 2718]
+    },
+    {
+        "name": "comic-book",
+        "text": "painting of _TOKEN_, retro comic style artwork, highly detailed, comic book cover, symmetrical, vibrant",
+        "seeds": [3141, 2718]
+    },
+    {
+        "name": "beach",
+        "text": "painting of _TOKEN_ sitting on the beach playing beach tenis, impressionist style",
+        "seeds": [3141, 2718]
+    },
+    {
+        "name": "caricature",
+        "text": "Caricature art of _TOKEN_ sitting on a chair drinking beer, on Charlie Hebdo",
+        "seeds": [7777, 3333]
+    },
+    {
+        "name": "3d-model",
+        "text": "3d-model of _TOKEN_, low poly, unity render, physically based rendering",
+        "seeds": [7777, 3333]
+    },
+    {
+        "name": "bokeh",
+        "text": "Photo of _TOKEN_ in the night with the aurora borealis, bokeh",
+        "seeds": [7777, 3333]
+    },
+    {
+        "name": "close-up",
+        "text": "Close-up polaroid photo, of _TOKEN_, soft lighting, outdoors, 24mm Nikon Z FX",
+        "seeds": [7777, 3333]
+    },
+    {
+        "name": "color-splash",
+        "text": "Color splash wide photo of _TOKEN_ holding an umbrella in the middle of empty street, detailed, mist, soft vignette",
+        "seeds": [7777, 3333]
+    },
+    {
+        "name": "gopro",
+        "text": "_TOKEN_ swimming, Gopro footage",
+        "seeds": [7777, 3333]
+    }, 
+    {
+        "name": "funko-figurine",
+        "text": "Funko pop figurine of _TOKEN_, made of plastic, product studio shot, on a white background, diffused lighting, centered.",
+        "seeds": [3, 56892]
+    }, 
+    {
+        "name": "van-window",
+        "text": "Photo of _TOKEN_, cinematic lighting, peeking from a van's window, vibrant colors, bokeh, movie poster style",
+        "seeds": [3, 56892]
+    },
+    {
+        "name": "ghibli",
+        "text": "A painting of _TOKEN_ wearing a suit, very cute, natural light, in the sky, with bright colors, by Studio Ghibli",
+        "seeds": [1032, 2048]
+    },
+    {
+        "name": "moon",
+        "text": "A painting of _TOKEN_ wearing an astronaut suit on the Moon, very detailed, beautiful, hyperrealism",
+        "seeds": [5890, 20760]
+    },
+    {
+        "name": "popart",
+        "text": "A painting of _TOKEN_ in the style of andy wharhol, pop art, colorful,",
+        "seeds": [1111, 2222]
+    },
+    {
+        "name": "graffiti",
+        "text": "wall graffiti of _TOKEN_ riding a rocket, smiling, happy",
+        "seeds": [3793, 72834]
+    },
+    {
+        "name": "pencil",
+        "text": "A pencil painting of _TOKEN_, detailed fur, beautiful",
+        "seeds": [86704, 24667]
+    },
+    {
+        "name": "oil",
+        "text": "oil painting of _TOKEN_ indoors, ambient lighting, in the style of da vinci",
+        "seeds": [5729, 9367]
+    },
+    {
+        "name": "polaroid",
+        "text": "polaroid shot of _TOKEN_ sitting in an empty street at sunset, medium shot",
+        "seeds": [7564, 3467]
+    }
+]

@@ -4,15 +4,14 @@ import random
 
 # To enable fp16 instead of fp32
 #pipe = StableDiffusionPipeline.from_pretrained("CompVis/stable-diffusion-v1-4", revision="fp16", torch_dtype=torch.float16)
-pipe = StableDiffusionPipeline.from_pretrained("./gllwjsv2/", revision="fp16", torch_dtype=torch.float16)
+pipe = StableDiffusionPipeline.from_pretrained("./models/gllwjsv4/", revision="fp16", torch_dtype=torch.float16)
 pipe.to("cuda")
 
 #prompt = input("Enter your prompt: ")
 rand_prefix = random.randint(0, 1000)
 
 prompts = [
-    ('a photo of gllwjs', 'gllwjs'),
-    ('a photo of gllwjs cat', 'gllwjs-cat')
+    ('A portrait of gllwjs cat, fernando botero style, award winning painting, mate, trending in artstation, oil painting', 'botero2')
     # ('a photo of gllwjs cat by the window, detailed fur, cannon DSLR, 300mm lens', 'photo-cannon-300mm'),
     # ('a painting of gllwjs cat in the jungle in the style of Frida Khalo', 'frida-khalo'),
     # ('a watercolor drawing of gllwjs cat and the moon', 'watercolor'),

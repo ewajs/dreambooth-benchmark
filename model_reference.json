@@ -1,0 +1,194 @@
+[
+  {
+    "name": "gllwjsv1",
+    "instance_prompt": "gllwjs cat",
+    "version": 1,
+    "precision": "fp16",
+    "prior_preservation_loss_weight": 1.0,
+    "learning_rate": 1e-6,
+    "train_steps": 500,
+    "text_encoder_trained": false,
+    "low_memory_optimization": {
+      "deepspeed": true,
+      "bitsandbytes/8bit_adam": false
+    },
+    "instance_images": 14,
+    "instance_images_cropped": false,
+    "instance_images_path": "",
+    "resolution": 512,
+    "class_images": 200,
+    "training_runtime": {
+      "environment": "local-3070Ti",
+      "gpu": "8",
+      "cpu": "48"
+    }
+  },
+  {
+    "name": "gllwjsv2",
+    "instance_prompt": "gllwjs cat",
+    "version": 2,
+    "precision": "fp16",
+    "prior_preservation_loss_weight": 1.0,
+    "learning_rate": 1e-6,
+    "train_steps": 1000,
+    "text_encoder_trained": false,
+    "low_memory_optimization": {
+      "deepspeed": true,
+      "bitsandbytes/8bit_adam": false
+    },
+    "instance_images": 14,
+    "instance_images_cropped": true,
+    "instance_images_path": "",
+    "resolution": 512,
+    "class_images": 200,
+    "training_runtime": {
+      "environment": "local-3070Ti",
+      "gpu": "8",
+      "cpu": "48"
+    }
+  },
+  {
+    "name": "gllwjsv3",
+    "instance_prompt": "gllwjs cat",
+    "version": 3,
+    "precision": "fp16",
+    "prior_preservation_loss_weight": 1.0,
+    "learning_rate": 1e-6,
+    "train_steps": 1000,
+    "text_encoder_trained": false,
+    "low_memory_optimization": {
+      "deepspeed": true,
+      "bitsandbytes/8bit_adam": false
+    },
+    "instance_images": 31,
+    "instance_images_cropped": true,
+    "instance_images_path": "",
+    "resolution": 512,
+    "class_images": 400,
+    "training_runtime": {
+      "environment": "local-3070Ti",
+      "gpu": "8",
+      "cpu": "48"
+    }
+  },
+  {
+    "name": "gllwjsv4",
+    "instance_prompt": "gllwjs cat",
+    "version": 4,
+    "precision": "fp16",
+    "prior_preservation_loss_weight": 1.0,
+    "learning_rate": 1e-6,
+    "train_steps": 1500,
+    "text_encoder_trained": false,
+    "low_memory_optimization": {
+      "deepspeed": true,
+      "bitsandbytes/8bit_adam": false
+    },
+    "instance_images": 31,
+    "instance_images_cropped": true,
+    "instance_images_path": "",
+    "resolution": 512,
+    "class_images": 800,
+    "training_runtime": {
+      "environment": "local-3070Ti",
+      "gpu": "8",
+      "cpu": "48"
+    }
+  },
+  {
+    "name": "gllwjsv5",
+    "instance_prompt": "gllwjs cat",
+    "version": 5,
+    "precision": "fp16",
+    "prior_preservation_loss_weight": 1.0,
+    "learning_rate": 3e-6,
+    "train_steps": 1500,
+    "text_encoder_trained": false,
+    "low_memory_optimization": {
+      "deepspeed": true,
+      "bitsandbytes/8bit_adam": false
+    },
+    "instance_images": 31,
+    "instance_images_cropped": true,
+    "instance_images_path": "",
+    "resolution": 512,
+    "class_images": 800,
+    "training_runtime": {
+      "environment": "local-3070Ti",
+      "gpu": "8",
+      "cpu": "48"
+    }
+  },
+  {
+    "name": "gllwjsv6",
+    "instance_prompt": "gllwjs cat",
+    "version": 6,
+    "precision": "fp16",
+    "prior_preservation_loss_weight": 1.0,
+    "learning_rate": 3e-6,
+    "train_steps": 1500,
+    "text_encoder_trained": false,
+    "low_memory_optimization": {
+      "deepspeed": true,
+      "bitsandbytes/8bit_adam": false
+    },
+    "instance_images": 31,
+    "instance_images_cropped": true,
+    "instance_images_path": "",
+    "resolution": 768,
+    "class_images": 800,
+    "training_runtime": {
+      "environment": "local-3070Ti",
+      "gpu": "8",
+      "cpu": "48"
+    }
+  },
+  {
+    "name": "gllwjsv7",
+    "instance_prompt": "gllwjs cat",
+    "version": 7,
+    "precision": "fp32",
+    "prior_preservation_loss_weight": 1.0,
+    "learning_rate": 3e-6,
+    "train_steps": 500,
+    "text_encoder_trained": false,
+    "low_memory_optimization": {
+      "deepspeed": false,
+      "bitsandbytes/8bit_adam": true
+    },
+    "instance_images": 31,
+    "instance_images_cropped": true,
+    "instance_images_path": "",
+    "resolution": 768,
+    "class_images": 800,
+    "training_runtime": {
+      "environment": "google-colab",
+      "gpu": "40",
+      "cpu": "48"
+    }
+  },
+  {
+    "name": "gllwjsv8",
+    "instance_prompt": "gllwjs cat",
+    "version": 8,
+    "precision": "fp32",
+    "prior_preservation_loss_weight": 1.0,
+    "learning_rate": 3e-6,
+    "train_steps": 1500,
+    "text_encoder_trained": true,
+    "low_memory_optimization": {
+      "deepspeed": false,
+      "bitsandbytes/8bit_adam": false
+    },
+    "instance_images": 31,
+    "instance_images_cropped": true,
+    "instance_images_path": "",
+    "resolution": 768,
+    "class_images": 800,
+    "training_runtime": {
+      "environment": "google-colab",
+      "gpu": "40",
+      "cpu": "48"
+    }
+  }
+]
