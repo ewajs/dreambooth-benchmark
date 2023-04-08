@@ -1,10 +1,20 @@
 import torch
 from diffusers import StableDiffusionPipeline
 import os
+import sys
 import json
 
 
-models_root_path = './models'
+if len(sys.argv) != 3:
+    print('ERROR: Wrong Number of arguments received!\nUSAGE: python benchmark_models_colab.py MODEL_FOLDER OUTPUT_FOLDER')
+    exit()
+
+
+
+models_root_path = sys.argv[1]
+# Output Directory
+benchmark_output_dir = sys.argv[2]
+
 # Generate a list of dictionaries containing model paths and whether this is the base or extended model
 models = [
     {
@@ -33,16 +43,13 @@ class_prompt_token = 'a cat'
 num_inference_steps = [50, 100, 150]
 guidance_scales = [4, 7.5, 9]
 
-# Output Directory
-benchmark_output_dir = './output/benchmark/'
-
 print("-------------- Stable Diffusion Dreambooth Training Benchmark --------------")
 print(f"Found {len(models)} models to Benchmark")
 
 for model in models:
     print(f"- Benchmarking model: {model['name']} - Extended: {model['extended']}")
     # Create the pipeline and set it to fp16 CUDA
-    pipe = StableDiffusionPipeline.from_pretrained(model['path'], torch_dtype=torch.float16)
+    pipe = StableDiffusionPipeline.from_pretrained(model['path'])
     pipe.to("cuda")
     # Get the Token to be used in prompts for this model
     token = instance_prompt_token if model['extended'] else class_prompt_token
