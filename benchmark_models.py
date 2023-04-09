@@ -74,8 +74,8 @@ if __name__ == "__main__":
     class_prompt_token = 'a cat'
 
     benchmark_settings = {
-        'num_inference_steps': [50, 100],#, 150],
-        'guidance_scales': [4, 7.5],#, 9],
+        'num_inference_steps': [50, 100, 150],
+        'guidance_scales': [4, 7.5, 9],
         'output_dir': './output/benchmark',
         'prompts': prompts
     }
