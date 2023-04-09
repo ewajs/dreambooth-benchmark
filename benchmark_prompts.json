@@ -118,5 +118,20 @@
         "name": "polaroid",
         "text": "polaroid shot of _TOKEN_ sitting in an empty street at sunset, medium shot",
         "seeds": [7564, 3467]
+    },
+    {
+        "name": "da-vinci",
+        "text": "portrait of _TOKEN_ as the Mona Lisa by Da Vinci, beautiful",
+        "seeds": [4803, 28054]
+    },
+    {
+        "name": "sunset",
+        "text": "portrait of _TOKEN_ looking sideways to the horizon at sunset, soft light, beautiful, award winning painting",
+        "seeds": [40672, 85927]
+    },
+    {
+        "name": "disney",
+        "text": "_TOKEN_ as a Disney animated character in a magical landscape",
+        "seeds": [7564, 3467]
     }
 ]

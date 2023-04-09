@@ -90,7 +90,7 @@ if __name__ == "__main__":
         print(f"- Using Token: '{token}' in prompts")
 
         # Create the pipeline and set it to fp16 CUDA
-        pipe = StableDiffusionPipeline.from_pretrained(model['path'], torch_dtype=torch.float16)
+        pipe = StableDiffusionPipeline.from_pretrained(model['path'], revision="fp16", torch_dtype=torch.float16)
         pipe.to("cuda")
 
         generate_benchmark_images(pipe, token, benchmark_settings, model['name'])
