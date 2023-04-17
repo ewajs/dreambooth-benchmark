@@ -1,0 +1,37 @@
+[
+    {
+        "name": "hyperrealism",
+        "text": "a painting of _TOKEN_ sitting on a red cushion, hyperrealism, detailed fur, beautiful",
+        "seeds": [3141, 2718]
+    },
+    {
+        "name": "van-gogh",
+        "text": "a painting of _TOKEN_ by the window in the style of Vincent Van Gogh",
+        "seeds": [3141, 2718]
+    },
+    {
+        "name": "moon",
+        "text": "A painting of _TOKEN_ wearing an astronaut suit on the Moon, very detailed, beautiful, hyperrealism",
+        "seeds": [5890, 20760]
+    },
+    {
+        "name": "popart",
+        "text": "A painting of _TOKEN_ in the style of andy wharhol, pop art, colorful,",
+        "seeds": [1111, 2222]
+    },
+    {
+        "name": "graffiti",
+        "text": "wall graffiti of _TOKEN_ riding a rocket, smiling, happy",
+        "seeds": [3793, 72834]
+    },
+    {
+        "name": "pencil",
+        "text": "A pencil painting of _TOKEN_, detailed fur, beautiful",
+        "seeds": [86704, 24667]
+    },
+    {
+        "name": "oil",
+        "text": "oil painting of _TOKEN_ indoors, ambient lighting, in the style of da vinci",
+        "seeds": [5729, 9367]
+    }
+]

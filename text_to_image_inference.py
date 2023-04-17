@@ -11,7 +11,9 @@ pipe.to("cuda")
 rand_prefix = random.randint(0, 1000)
 
 prompts = [
-    ('A painting of gllwjs cat sailing in a canoe in the middle of the Missisipi river, detailed, realism, beautiful', 'pencil')
+    ('Retro comic style artwork, highly detailed gllwjs cat, comic book cover, symmetrical, vibrant', 'comic'),
+    ('Die-cut sticker, Cute gllwjs cat sticker, white background, illustration minimalism, vector, pastel colors', 'sticker'),
+    ('3d fluffy gllwjs cat, closeup cute and adorable, cute big circular reflective eyes, long fuzzy fur, Pixar render, unreal engine cinematic smooth, intricate detail, cinematic', 'cute'),
  
 ]
 
@@ -21,6 +23,7 @@ guidance_scales = [4, 7.5]
 for prompt, name in prompts:
     for step in inference_steps:
         for scale in guidance_scales:
-            for i, image in enumerate(pipe(prompt, num_images_per_prompt=2, num_inference_steps=step, guidance_scale=scale).images):
-                # you can save the image with
-                image.save(f"./output/feldman/{name}-{step}-{scale}-{i}.png")
+            for j in range(2):
+                for i, image in enumerate(pipe(prompt, num_images_per_prompt=2, num_inference_steps=step, guidance_scale=scale).images):
+                    # you can save the image with
+                    image.save(f"./output/logo/{name}-{step}-{scale}-{i}{j}.png")
